@@ -1,0 +1,102 @@
+八月 13, 2016 9:39:50 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\JAVA\java-1.7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sybase\SQL Anywhere 8\win32;C:\Program Files (x86)\Sybase\Shared\win32;C:\Program Files (x86)\Sybase\Shared\Sybase Central 4.1;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;E:\新疆\portal\Oracle_instantclient_11_2:C:\Program Files (x86)\Java\jdk1.6.0_10\bin;C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin;C:\Python27;C:\Python27\Scripts;.;;C:\adb;E:\MySQL\MySQL Server 5.5\bin;.;;.
+八月 13, 2016 9:39:50 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+八月 13, 2016 9:39:50 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+八月 13, 2016 9:39:50 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 855 ms
+八月 13, 2016 9:39:50 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 13, 2016 9:39:50 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.52
+八月 13, 2016 9:39:50 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\day12
+八月 13, 2016 9:39:52 下午 com.sun.faces.config.ConfigureListener contextInitialized
+信息: 初始化上下文 '/day12' 的 Mojarra 2.0.3 (FCS b03)
+八月 13, 2016 9:39:53 下午 com.sun.faces.spi.InjectionProviderFactory createInstance
+信息: JSF1048：有 PostConstruct/PreDestroy 注释。标有这些注释的 ManagedBeans 方法将表示注释已处理。
+八月 13, 2016 9:39:53 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\day13
+八月 13, 2016 9:39:54 下午 com.sun.faces.config.ConfigureListener contextInitialized
+信息: 初始化上下文 '/day13' 的 Mojarra 2.0.3 (FCS b03)
+八月 13, 2016 9:39:55 下午 com.sun.faces.spi.InjectionProviderFactory createInstance
+信息: JSF1048：有 PostConstruct/PreDestroy 注释。标有这些注释的 ManagedBeans 方法将表示注释已处理。
+八月 13, 2016 9:39:55 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\docs
+八月 13, 2016 9:39:55 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\examples
+八月 13, 2016 9:39:56 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\host-manager
+八月 13, 2016 9:39:56 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\manager
+八月 13, 2016 9:39:56 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\ROOT
+八月 13, 2016 9:39:56 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+八月 13, 2016 9:39:56 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+八月 13, 2016 9:39:56 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 5795 ms
+八月 13, 2016 9:40:54 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\JAVA\java-1.7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sybase\SQL Anywhere 8\win32;C:\Program Files (x86)\Sybase\Shared\win32;C:\Program Files (x86)\Sybase\Shared\Sybase Central 4.1;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;E:\新疆\portal\Oracle_instantclient_11_2:C:\Program Files (x86)\Java\jdk1.6.0_10\bin;C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin;C:\Python27;C:\Python27\Scripts;.;;C:\adb;E:\MySQL\MySQL Server 5.5\bin;.;;.
+八月 13, 2016 9:40:54 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+八月 13, 2016 9:40:54 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+八月 13, 2016 9:40:54 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 796 ms
+八月 13, 2016 9:40:54 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 13, 2016 9:40:54 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.52
+八月 13, 2016 9:40:54 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\day12
+八月 13, 2016 9:40:56 下午 com.sun.faces.config.ConfigureListener contextInitialized
+信息: 初始化上下文 '/day12' 的 Mojarra 2.0.3 (FCS b03)
+八月 13, 2016 9:40:57 下午 com.sun.faces.spi.InjectionProviderFactory createInstance
+信息: JSF1048：有 PostConstruct/PreDestroy 注释。标有这些注释的 ManagedBeans 方法将表示注释已处理。
+八月 13, 2016 9:40:57 下午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+八月 13, 2016 9:40:57 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\day13
+八月 13, 2016 9:42:33 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\JAVA\java-1.7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sybase\SQL Anywhere 8\win32;C:\Program Files (x86)\Sybase\Shared\win32;C:\Program Files (x86)\Sybase\Shared\Sybase Central 4.1;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;E:\新疆\portal\Oracle_instantclient_11_2:C:\Program Files (x86)\Java\jdk1.6.0_10\bin;C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin;C:\Python27;C:\Python27\Scripts;.;;C:\adb;E:\MySQL\MySQL Server 5.5\bin;.;;.
+八月 13, 2016 9:42:34 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+八月 13, 2016 9:42:34 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+八月 13, 2016 9:42:34 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 820 ms
+八月 13, 2016 9:42:34 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+八月 13, 2016 9:42:34 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.52
+八月 13, 2016 9:42:34 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\day12
+八月 13, 2016 9:42:35 下午 com.sun.faces.config.ConfigureListener contextInitialized
+信息: 初始化上下文 '/day12' 的 Mojarra 2.0.3 (FCS b03)
+八月 13, 2016 9:42:36 下午 com.sun.faces.spi.InjectionProviderFactory createInstance
+信息: JSF1048：有 PostConstruct/PreDestroy 注释。标有这些注释的 ManagedBeans 方法将表示注释已处理。
+八月 13, 2016 9:42:37 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\day13
+八月 13, 2016 9:42:38 下午 com.sun.faces.config.ConfigureListener contextInitialized
+信息: 初始化上下文 '/day13' 的 Mojarra 2.0.3 (FCS b03)
+八月 13, 2016 9:42:38 下午 com.sun.faces.spi.InjectionProviderFactory createInstance
+信息: JSF1048：有 PostConstruct/PreDestroy 注释。标有这些注释的 ManagedBeans 方法将表示注释已处理。
+八月 13, 2016 9:42:39 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\docs
+八月 13, 2016 9:42:39 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\examples
+八月 13, 2016 9:42:39 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\host-manager
+八月 13, 2016 9:42:39 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\manager
+八月 13, 2016 9:42:39 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\ROOT
+八月 13, 2016 9:42:39 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+八月 13, 2016 9:42:39 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+八月 13, 2016 9:42:39 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 5871 ms

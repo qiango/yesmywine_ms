@@ -1,0 +1,4 @@
+Sep 10, 2017 7:20:54 AM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+Sep 10, 2017 8:22:04 AM org.apache.catalina.core.StandardServer await
+WARNING: StandardServer.await: Invalid command '' received

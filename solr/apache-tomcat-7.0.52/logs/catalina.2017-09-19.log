@@ -1,0 +1,80 @@
+Sep 19, 2017 3:36:23 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 19, 2017 3:36:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8466"]
+Sep 19, 2017 3:36:23 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 19, 2017 3:36:23 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 561 ms
+Sep 19, 2017 3:36:23 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 19, 2017 3:36:23 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+Sep 19, 2017 3:36:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/manager
+Sep 19, 2017 3:36:54 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [30,916] milliseconds.
+Sep 19, 2017 3:36:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/docs
+Sep 19, 2017 3:36:54 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/examples
+Sep 19, 2017 3:36:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/host-manager
+Sep 19, 2017 3:36:55 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/solr
+Sep 19, 2017 3:36:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/ROOT
+Sep 19, 2017 3:36:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8466"]
+Sep 19, 2017 3:36:58 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 19, 2017 3:36:58 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 35260 ms
+Sep 19, 2017 3:39:12 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 19, 2017 3:39:12 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8466"]
+Sep 19, 2017 3:39:12 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-bio-8009"]
+Sep 19, 2017 3:39:12 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Sep 19, 2017 3:39:12 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8466"]
+Sep 19, 2017 3:39:12 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["ajp-bio-8009"]
+Sep 19, 2017 3:39:12 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8466"]
+Sep 19, 2017 3:39:12 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["ajp-bio-8009"]
+Sep 19, 2017 3:39:21 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Sep 19, 2017 3:39:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8983"]
+Sep 19, 2017 3:39:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Sep 19, 2017 3:39:21 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 393 ms
+Sep 19, 2017 3:39:21 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Sep 19, 2017 3:39:21 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+Sep 19, 2017 3:39:21 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/manager
+Sep 19, 2017 3:40:04 PM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [41,799] milliseconds.
+Sep 19, 2017 3:40:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/docs
+Sep 19, 2017 3:40:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/examples
+Sep 19, 2017 3:40:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/host-manager
+Sep 19, 2017 3:40:04 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/solr
+Sep 19, 2017 3:40:07 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/ROOT
+Sep 19, 2017 3:40:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8983"]
+Sep 19, 2017 3:40:07 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Sep 19, 2017 3:40:07 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 45463 ms

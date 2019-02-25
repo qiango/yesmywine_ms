@@ -1,0 +1,12 @@
+47.89.18.26 - - [09/Sep/2017:00:30:07 +0800] "GET /solr/yesmywine/select?q=categoryId%3A45+OR+categoryIdParent%3A45+OR+categoryIdGrandpa%3A45&start=0&rows=10&wt=xml&version=2.2 HTTP/1.1" 200 12862
+114.215.45.79 - - [09/Sep/2017:00:31:57 +0800] "GET / HTTP/1.1" 200 7783
+119.23.150.148 - - [09/Sep/2017:02:48:37 +0800] "GET / HTTP/1.0" 200 7783
+47.52.34.150 - - [09/Sep/2017:03:55:20 +0800] "GET / HTTP/1.0" 200 7783
+59.110.6.177 - - [09/Sep/2017:08:24:52 +0800] "GET / HTTP/1.1" 200 7783
+47.89.18.26 - - [09/Sep/2017:10:05:58 +0800] "GET /solr/yesmywine/select?q=categoryId%3A60+OR+categoryIdParent%3A60+OR+categoryIdGrandpa%3A60&start=0&rows=10&wt=xml&version=2.2 HTTP/1.1" 200 11316
+116.62.176.205 - - [09/Sep/2017:16:27:05 +0800] "GET / HTTP/1.1" 200 7783
+47.89.18.26 - - [09/Sep/2017:22:05:38 +0800] "GET /solr/yesmywine/select?q=categoryId%3A60+OR+categoryIdParent%3A60+OR+categoryIdGrandpa%3A60&start=0&rows=10&wt=xml&version=2.2 HTTP/1.1" 200 11316
+47.89.18.26 - - [09/Sep/2017:22:08:46 +0800] "GET /solr/yesmywine/select?q=categoryId%3A60+OR+categoryIdParent%3A60+OR+categoryIdGrandpa%3A60&start=0&rows=10&wt=xml&version=2.2 HTTP/1.1" 200 11316
+47.89.18.26 - - [09/Sep/2017:22:08:57 +0800] "GET /solr/yesmywine/select?q=categoryId%3A60+OR+categoryIdParent%3A60+OR+categoryIdGrandpa%3A60&start=0&rows=10&wt=xml&version=2.2 HTTP/1.1" 200 11316
+47.89.18.26 - - [09/Sep/2017:22:10:43 +0800] "GET /solr/yesmywine/select?q=categoryId%3A57+OR+categoryIdParent%3A57+OR+categoryIdGrandpa%3A57&start=0&rows=10&wt=xml&version=2.2 HTTP/1.1" 200 12661
+47.89.18.26 - - [09/Sep/2017:22:10:47 +0800] "GET /solr/yesmywine/select?q=categoryId%3A60+OR+categoryIdParent%3A60+OR+categoryIdGrandpa%3A60&start=0&rows=10&wt=xml&version=2.2 HTTP/1.1" 200 11316

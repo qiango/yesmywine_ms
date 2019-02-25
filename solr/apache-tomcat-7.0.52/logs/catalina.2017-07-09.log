@@ -1,0 +1,316 @@
+七月 09, 2017 12:49:51 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: E:\JAVA\java-1.7\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sybase\SQL Anywhere 8\win32;C:\Program Files (x86)\Sybase\Shared\win32;C:\Program Files (x86)\Sybase\Shared\Sybase Central 4.1;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin;C:\Python27;C:\Python27\Scripts;.;;C:\adb;E:\MySQL\MySQL Server 5.5\bin;E:\ORACLE\app\oracle\product\10.2.0\server\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Sybase\SQL Anywhere 8\win32;C:\Program Files (x86)\Sybase\Shared\win32;C:\Program Files (x86)\Sybase\Shared\Sybase Central 4.1;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Java\jdk1.6.0_10\bin;C:\Program Files (x86)\Java\jdk1.6.0_10\jre\bin;C:\Python27;C:\Python27\Scripts;.;;C:\adb;E:\MySQL\MySQL Server 5.5\bin;E:\maven\apache-maven-3.1.1\bin;E:\XShell;.;;.
+七月 09, 2017 12:49:52 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 12:49:52 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 12:49:52 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1899 ms
+七月 09, 2017 12:49:52 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+七月 09, 2017 12:49:52 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.52
+七月 09, 2017 12:49:52 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\docs
+七月 09, 2017 12:49:54 下午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [250] milliseconds.
+七月 09, 2017 12:49:54 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\examples
+七月 09, 2017 12:49:55 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\host-manager
+七月 09, 2017 12:49:55 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\manager
+七月 09, 2017 12:49:55 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\ROOT
+七月 09, 2017 12:49:55 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\apache-tomcat-7.0.52\webapps\solr
+七月 09, 2017 12:50:09 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 12:50:09 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 12:50:09 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 16979 ms
+七月 09, 2017 12:51:05 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+七月 09, 2017 12:51:05 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 12:51:05 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 12:51:05 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+七月 09, 2017 12:51:06 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@70940b36]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 12:51:06 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@70940b36]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 12:51:06 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@70940b36]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 12:51:06 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@70940b36]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 12:51:06 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 12:51:06 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 12:51:06 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 12:51:06 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:01:13 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\jdk\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Git\cmd;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Program Files\jdk\jdk1.8.0_111\jre\bin;C:\Users\hz\AppData\Local\Microsoft\WindowsApps;;.
+七月 09, 2017 1:01:14 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 1:01:14 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:01:14 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 1683 ms
+七月 09, 2017 1:01:14 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+七月 09, 2017 1:01:14 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.52
+七月 09, 2017 1:01:14 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\docs
+七月 09, 2017 1:01:15 下午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [160] milliseconds.
+七月 09, 2017 1:01:15 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\examples
+七月 09, 2017 1:01:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\host-manager
+七月 09, 2017 1:01:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\manager
+七月 09, 2017 1:01:17 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\ROOT
+七月 09, 2017 1:01:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\solr
+七月 09, 2017 1:01:27 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 1:01:27 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:01:27 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 13198 ms
+七月 09, 2017 1:06:32 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+七月 09, 2017 1:06:32 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 1:06:32 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:06:32 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+七月 09, 2017 1:06:32 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@5141aff]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 1:06:32 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@5141aff]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 1:06:32 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 1:06:32 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:06:32 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 1:06:32 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:06:36 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\jdk\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Git\cmd;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Program Files\jdk\jdk1.8.0_111\jre\bin;C:\Users\hz\AppData\Local\Microsoft\WindowsApps;;.
+七月 09, 2017 1:06:37 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 1:06:37 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:06:37 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 869 ms
+七月 09, 2017 1:06:37 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+七月 09, 2017 1:06:37 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.52
+七月 09, 2017 1:06:37 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\docs
+七月 09, 2017 1:06:38 下午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [151] milliseconds.
+七月 09, 2017 1:06:38 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\examples
+七月 09, 2017 1:06:38 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\host-manager
+七月 09, 2017 1:06:38 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\manager
+七月 09, 2017 1:06:39 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\ROOT
+七月 09, 2017 1:06:39 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\solr
+七月 09, 2017 1:06:48 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 1:06:48 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:06:48 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 10855 ms
+七月 09, 2017 1:08:14 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+七月 09, 2017 1:08:14 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 1:08:14 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:08:14 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+七月 09, 2017 1:08:14 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7cf336ca]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 1:08:14 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7cf336ca]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 1:08:14 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7cf336ca]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 1:08:14 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@7cf336ca]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 1:08:14 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 1:08:14 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:08:14 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+七月 09, 2017 1:08:14 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:08:17 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\jdk\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Git\cmd;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Program Files\jdk\jdk1.8.0_111\jre\bin;C:\Users\hz\AppData\Local\Microsoft\WindowsApps;;.
+七月 09, 2017 1:08:18 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:08:18 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:08:18 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 843 ms
+七月 09, 2017 1:08:18 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+七月 09, 2017 1:08:18 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.52
+七月 09, 2017 1:08:18 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\docs
+七月 09, 2017 1:08:19 下午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [148] milliseconds.
+七月 09, 2017 1:08:19 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\examples
+七月 09, 2017 1:08:19 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\host-manager
+七月 09, 2017 1:08:19 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\manager
+七月 09, 2017 1:08:19 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\ROOT
+七月 09, 2017 1:08:20 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\solr
+七月 09, 2017 1:08:29 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:08:29 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:08:29 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 11627 ms
+七月 09, 2017 1:10:23 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+七月 09, 2017 1:10:23 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:10:24 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:10:24 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+七月 09, 2017 1:10:24 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@3ffc3af3]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 1:10:24 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@3ffc3af3]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 1:10:24 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:10:24 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:10:24 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:10:24 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:10:27 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\jdk\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Git\cmd;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Program Files\jdk\jdk1.8.0_111\jre\bin;C:\Users\hz\AppData\Local\Microsoft\WindowsApps;;.
+七月 09, 2017 1:10:27 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:10:27 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:10:27 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 862 ms
+七月 09, 2017 1:10:27 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+七月 09, 2017 1:10:27 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.52
+七月 09, 2017 1:10:27 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\docs
+七月 09, 2017 1:10:28 下午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [146] milliseconds.
+七月 09, 2017 1:10:28 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\examples
+七月 09, 2017 1:10:29 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\host-manager
+七月 09, 2017 1:10:29 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\manager
+七月 09, 2017 1:10:29 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\ROOT
+七月 09, 2017 1:10:29 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\solr
+七月 09, 2017 1:10:35 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:10:35 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:10:35 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 8128 ms
+七月 09, 2017 1:10:44 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+七月 09, 2017 1:10:44 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:10:44 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:10:44 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+七月 09, 2017 1:10:44 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:10:44 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:10:44 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:10:44 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:11:04 下午 org.apache.catalina.core.AprLifecycleListener init
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\jdk\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\Git\cmd;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Program Files\jdk\jdk1.8.0_111\jre\bin;C:\Users\hz\AppData\Local\Microsoft\WindowsApps;;.
+七月 09, 2017 1:11:05 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:11:05 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:11:05 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 847 ms
+七月 09, 2017 1:11:05 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+七月 09, 2017 1:11:05 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.52
+七月 09, 2017 1:11:05 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\docs
+七月 09, 2017 1:11:06 下午 org.apache.catalina.util.SessionIdGenerator createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [151] milliseconds.
+七月 09, 2017 1:11:06 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\examples
+七月 09, 2017 1:11:06 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\host-manager
+七月 09, 2017 1:11:07 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\manager
+七月 09, 2017 1:11:07 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\ROOT
+七月 09, 2017 1:11:07 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory D:\solr\apache-tomcat-7.0.52\webapps\solr
+七月 09, 2017 1:11:16 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:11:16 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:11:16 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 10778 ms
+七月 09, 2017 1:11:53 下午 org.apache.catalina.core.StandardServer await
+信息: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+七月 09, 2017 1:11:53 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:11:53 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:11:53 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+七月 09, 2017 1:11:53 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@784cac7c]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 1:11:53 下午 org.apache.catalina.loader.WebappClassLoader checkThreadLocalMapForLeaks
+严重: The web application [/solr] created a ThreadLocal with key of type [org.apache.solr.schema.DateField.ThreadLocalDateFormat] (value [org.apache.solr.schema.DateField$ThreadLocalDateFormat@784cac7c]) and a value of type [org.apache.solr.schema.DateField.ISO8601CanonicalDateFormat] (value [org.apache.solr.schema.DateField$ISO8601CanonicalDateFormat@6b2ed43a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+七月 09, 2017 1:11:53 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:11:53 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8009"]
+七月 09, 2017 1:11:53 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8983"]
+七月 09, 2017 1:11:53 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8009"]

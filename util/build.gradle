@@ -1,0 +1,27 @@
+group 'com.hzbuvi'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.38'
+    compile project(':httpClient')
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.1.15'
+    compile group: 'com.sdicons.jsontools', name: 'jsontools-core', version: '1.7'
+//    compile group: 'com.rabbitmq', name: 'amqp-client', version: '4.1.0'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.0.RELEASE'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.5'
+
+    testCompile group: 'org.springframework.boot', name: 'spring-boot-starter-test', version: '1.5.4.RELEASE'
+    testCompile group: 'org.springframework', name: 'spring-test', version: '4.3.10.RELEASE'
+    compile group: 'com.alibaba', name: 'druid', version: '1.1.0'
+
+
+}

@@ -1,0 +1,5 @@
+0:0:0:0:0:0:0:1 - - [06/Sep/2016:13:49:02 +0800] "GET /struts2_em34/ HTTP/1.1" 200 3439
+0:0:0:0:0:0:0:1 - - [06/Sep/2016:13:49:03 +0800] "GET /struts2_em34/css/Style.css HTTP/1.1" 200 12829
+0:0:0:0:0:0:0:1 - - [06/Sep/2016:13:49:03 +0800] "GET /struts2_em34/images/logintitle.gif HTTP/1.1" 200 16435
+0:0:0:0:0:0:0:1 - - [06/Sep/2016:13:49:03 +0800] "GET /struts2_em34/images/loginbg.gif HTTP/1.1" 200 5005
+0:0:0:0:0:0:0:1 - - [06/Sep/2016:13:54:02 +0800] "POST /struts2_em34/user_login;jsessionid=60335A82464BFBC6B1B1244FC1126BEF HTTP/1.1" 200 3254

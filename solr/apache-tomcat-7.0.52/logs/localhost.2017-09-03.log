@@ -1,0 +1,106 @@
+Sep 03, 2017 9:01:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.runtime.JspApplicationContextImpl', 'org.apache.jasper.runtime.JspApplicationContextImpl@781d2351')
+Sep 03, 2017 9:01:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: ContextListener: attributeAdded('org.apache.jasper.compiler.ELInterpreter', 'org.apache.jasper.compiler.ELInterpreterFactory$DefaultELInterpreter@157c1047')
+Sep 03, 2017 9:01:19 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('BAF441C4DEEBC40EFC5B5800EA738F1E')
+Sep 03, 2017 9:28:51 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('37AF256EFF97C068FBC9B4D89D9A9E3B')
+Sep 03, 2017 9:28:51 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('37AF256EFF97C068FBC9B4D89D9A9E3B', 'numguess', 'num.NumberGuessBean@7be41707')
+Sep 03, 2017 9:32:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('BAF441C4DEEBC40EFC5B5800EA738F1E')
+Sep 03, 2017 9:49:02 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('B251DBE9EF07251BAC8E91B72E7A3F1A')
+Sep 03, 2017 9:49:02 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [javax.servlet.ServletException: javax.servlet.jsp.JspTagException: Invalid JSP file ?] with root cause
+javax.servlet.jsp.JspTagException: Invalid JSP file ?
+	at examples.ShowSource.doEndTag(ShowSource.java:44)
+	at org.apache.jsp.jsp.source_jsp._jspService(source_jsp.java:96)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Sep 03, 2017 9:49:02 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('D4B126E33B947378E4DB9E125996F5F3')
+Sep 03, 2017 9:49:02 PM org.apache.catalina.core.StandardWrapperValve invoke
+SEVERE: Servlet.service() for servlet [jsp] in context with path [/examples] threw exception [javax.servlet.ServletException: javax.servlet.jsp.JspTagException: Invalid JSP file /jsp/] with root cause
+javax.servlet.jsp.JspTagException: Invalid JSP file /jsp/
+	at examples.ShowSource.doEndTag(ShowSource.java:44)
+	at org.apache.jsp.jsp.source_jsp._jspService(source_jsp.java:96)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:390)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:334)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:727)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:220)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:122)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:501)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:170)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:98)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:950)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1040)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:607)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:313)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+Sep 03, 2017 9:59:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('37AF256EFF97C068FBC9B4D89D9A9E3B')
+Sep 03, 2017 9:59:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeRemoved('37AF256EFF97C068FBC9B4D89D9A9E3B', 'numguess', 'num.NumberGuessBean@7be41707')
+Sep 03, 2017 10:01:09 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('2F95F8F476B817901C9501DA0A4AB456')
+Sep 03, 2017 10:19:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('B251DBE9EF07251BAC8E91B72E7A3F1A')
+Sep 03, 2017 10:19:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('D4B126E33B947378E4DB9E125996F5F3')
+Sep 03, 2017 10:22:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('F0ECD14FD1BDAC8946F5FE7608F863C9')
+Sep 03, 2017 10:22:34 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('F0ECD14FD1BDAC8946F5FE7608F863C9', 'table', 'cal.TableBean@5dafb262')
+Sep 03, 2017 10:32:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('2F95F8F476B817901C9501DA0A4AB456')
+Sep 03, 2017 10:37:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionCreated('A4AF38B150231D7842D90331E4C474B5')
+Sep 03, 2017 10:37:43 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeAdded('A4AF38B150231D7842D90331E4C474B5', 'table', 'cal.TableBean@59c3d227')
+Sep 03, 2017 10:53:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('F0ECD14FD1BDAC8946F5FE7608F863C9')
+Sep 03, 2017 10:53:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeRemoved('F0ECD14FD1BDAC8946F5FE7608F863C9', 'table', 'cal.TableBean@5dafb262')
+Sep 03, 2017 11:08:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: sessionDestroyed('A4AF38B150231D7842D90331E4C474B5')
+Sep 03, 2017 11:08:05 PM org.apache.catalina.core.ApplicationContext log
+INFO: SessionListener: attributeRemoved('A4AF38B150231D7842D90331E4C474B5', 'table', 'cal.TableBean@59c3d227')

@@ -1,0 +1,189 @@
+Sep 03, 2017 8:21:36 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+Sep 03, 2017 8:23:07 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+Sep 03, 2017 8:23:40 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Sep 03, 2017 8:24:01 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Sep 03, 2017 8:24:01 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Sep 03, 2017 8:24:01 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Sep 03, 2017 8:24:01 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Sep 03, 2017 8:24:37 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Sep 03, 2017 8:24:37 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Sep 03, 2017 8:24:38 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Sep 03, 2017 8:24:38 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 32805
+Sep 03, 2017 8:24:38 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Sep 03, 2017 8:24:38 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Sep 03, 2017 8:24:38 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Sep 03, 2017 8:24:38 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 5635
+Sep 03, 2017 8:24:38 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 32832
+Sep 03, 2017 8:24:39 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+Sep 03, 2017 8:26:11 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+Sep 03, 2017 8:26:11 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18501
+Sep 03, 2017 8:26:14 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 768
+Sep 03, 2017 8:26:14 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 0
+Sep 03, 2017 8:26:16 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 0
+Sep 03, 2017 8:26:18 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 4609
+Sep 03, 2017 8:26:19 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 12300
+Sep 03, 2017 8:26:20 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15423
+Sep 03, 2017 8:26:20 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15423
+Sep 03, 2017 8:26:20 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Sep 03, 2017 8:26:20 PM org.apache.coyote.http11.AbstractHttp11Processor process
+INFO: Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+Sep 03, 2017 8:26:21 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+Sep 03, 2017 8:26:21 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+Sep 03, 2017 8:26:33 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 20304
+Sep 03, 2017 8:44:27 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+Sep 03, 2017 8:51:05 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+Sep 03, 2017 9:01:39 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 13872
+Sep 03, 2017 9:11:50 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 18245
+Sep 03, 2017 9:12:13 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 20562
+Sep 03, 2017 9:27:16 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:16 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:17 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:17 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:17 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:17 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:17 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:18 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:18 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:18 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:18 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:18 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:18 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:19 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:20 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:20 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:20 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:20 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:20 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:21 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:21 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:22 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:22 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:22 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:22 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:23 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:23 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:23 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:23 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:23 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:24 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:25 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:26 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:26 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:26 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:26 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 9:27:26 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 15392
+Sep 03, 2017 10:07:35 PM org.apache.catalina.realm.LockOutRealm authenticate
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Sep 03, 2017 10:07:36 PM org.apache.catalina.realm.LockOutRealm authenticate
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Sep 03, 2017 10:07:37 PM org.apache.catalina.realm.LockOutRealm authenticate
+WARNING: An attempt was made to authenticate the locked user "tomcat"
+Sep 03, 2017 10:07:37 PM org.apache.catalina.realm.LockOutRealm authenticate
+WARNING: An attempt was made to authenticate the locked user "tomcat"

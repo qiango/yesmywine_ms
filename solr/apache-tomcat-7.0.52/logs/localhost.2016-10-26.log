@@ -1,0 +1,126 @@
+十月 26, 2016 7:27:11 下午 org.apache.catalina.core.ApplicationContext log
+信息: No Spring WebApplicationInitializer types detected on classpath
+十月 26, 2016 7:27:18 下午 org.apache.catalina.core.ApplicationContext log
+信息: Initializing Spring FrameworkServlet 'dispatcher'
+十月 26, 2016 7:27:21 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+十月 26, 2016 7:27:21 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+十月 26, 2016 7:27:21 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@7efe22aa')
+十月 26, 2016 7:28:21 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+十月 26, 2016 7:28:21 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+十月 26, 2016 7:28:21 下午 org.apache.catalina.core.ApplicationContext log
+信息: Destroying Spring FrameworkServlet 'dispatcher'
+十月 26, 2016 7:29:02 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+十月 26, 2016 7:29:02 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+十月 26, 2016 7:29:02 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@39e43b71')
+十月 26, 2016 7:36:51 下午 org.apache.catalina.core.StandardContext filterStart
+严重: Exception starting filter SolrRequestFilter
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:140)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4809)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5485)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1073)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1857)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+十月 26, 2016 7:36:55 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+十月 26, 2016 7:36:55 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+十月 26, 2016 7:37:06 下午 org.apache.catalina.core.StandardContext filterStart
+严重: Exception starting filter SolrRequestFilter
+java.lang.NoClassDefFoundError: Failed to initialize Apache Solr: Could not find necessary SLF4j logging jars. If using Jetty, the SLF4j logging jars need to go in the jetty lib/ext directory. For other containers, the corresponding directory should be used. For more information, see: http://wiki.apache.org/solr/SolrLogging
+	at org.apache.solr.servlet.CheckLoggingConfiguration.check(CheckLoggingConfiguration.java:28)
+	at org.apache.solr.servlet.BaseSolrFilter.<clinit>(BaseSolrFilter.java:31)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at java.lang.Class.newInstance(Unknown Source)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:140)
+	at org.apache.catalina.core.ApplicationFilterConfig.getFilter(ApplicationFilterConfig.java:258)
+	at org.apache.catalina.core.ApplicationFilterConfig.<init>(ApplicationFilterConfig.java:105)
+	at org.apache.catalina.core.StandardContext.filterStart(StandardContext.java:4809)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5485)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:632)
+	at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:1073)
+	at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1857)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+十月 26, 2016 7:37:07 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+十月 26, 2016 7:37:07 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+十月 26, 2016 7:37:07 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@54264915')
+十月 26, 2016 7:37:59 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+十月 26, 2016 7:37:59 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+十月 26, 2016 7:42:20 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+十月 26, 2016 7:42:20 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+十月 26, 2016 7:42:20 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@4e7f7164')
+十月 26, 2016 7:49:34 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+十月 26, 2016 7:49:34 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+十月 26, 2016 7:49:34 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@5a0ec10b')
+十月 26, 2016 7:51:38 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+十月 26, 2016 7:51:38 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+十月 26, 2016 7:51:41 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+十月 26, 2016 7:51:41 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+十月 26, 2016 7:51:41 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@5a0ec10b')
+十月 26, 2016 8:28:13 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+十月 26, 2016 8:28:13 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()
+十月 26, 2016 8:28:19 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextInitialized()
+十月 26, 2016 8:28:19 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextInitialized()
+十月 26, 2016 8:28:19 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: attributeAdded('org.apache.jasper.compiler.TldLocationsCache', 'org.apache.jasper.compiler.TldLocationsCache@43790ba6')
+十月 26, 2016 8:29:59 下午 org.apache.catalina.core.ApplicationContext log
+信息: SessionListener: contextDestroyed()
+十月 26, 2016 8:29:59 下午 org.apache.catalina.core.ApplicationContext log
+信息: ContextListener: contextDestroyed()

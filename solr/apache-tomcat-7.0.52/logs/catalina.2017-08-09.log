@@ -1,0 +1,4 @@
+Aug 09, 2017 8:43:55 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 768
+Aug 09, 2017 8:43:56 PM org.apache.coyote.ajp.AjpMessage processHeader
+SEVERE: Invalid message received with signature 768

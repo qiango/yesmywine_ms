@@ -1,0 +1,32 @@
+Aug 28, 2017 11:35:08 AM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+Aug 28, 2017 11:35:08 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8983"]
+Aug 28, 2017 11:35:08 AM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-bio-8009"]
+Aug 28, 2017 11:35:08 AM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 587 ms
+Aug 28, 2017 11:35:08 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Aug 28, 2017 11:35:08 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.52
+Aug 28, 2017 11:35:08 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/manager
+Aug 28, 2017 11:35:32 AM org.apache.catalina.util.SessionIdGenerator createSecureRandom
+INFO: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [23,927] milliseconds.
+Aug 28, 2017 11:35:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/docs
+Aug 28, 2017 11:35:32 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/examples
+Aug 28, 2017 11:35:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/host-manager
+Aug 28, 2017 11:35:33 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/solr
+Aug 28, 2017 11:35:38 AM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory /home/repository/yesmywine_ms/solr/apache-tomcat-7.0.52/webapps/ROOT
+Aug 28, 2017 11:35:38 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8983"]
+Aug 28, 2017 11:35:38 AM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-bio-8009"]
+Aug 28, 2017 11:35:38 AM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 29842 ms

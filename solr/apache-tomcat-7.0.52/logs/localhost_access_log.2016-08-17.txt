@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:10:32 +0800] "POST /day14/loginServlet HTTP/1.1" 200 1802
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:10:40 +0800] "POST /day14/findByKey HTTP/1.1" 200 1802
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:19:03 +0800] "POST /day14/loginServlet HTTP/1.1" 200 1802
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:19:17 +0800] "GET /day14/addContact.jsp HTTP/1.1" 200 1126
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:19:34 +0800] "POST /day14/addContact HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:19:35 +0800] "GET /day14/findAllContact HTTP/1.1" 200 1802
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:22:36 +0800] "POST /day14/loginServlet HTTP/1.1" 200 2661
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:24:15 +0800] "POST /day14/loginServlet HTTP/1.1" 200 2661
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:24:18 +0800] "GET /day14/queryPage?pageNum=2 HTTP/1.1" 200 2162
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:24:21 +0800] "GET /day14/queryPage?pageNum=1 HTTP/1.1" 200 2661
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:24:23 +0800] "GET /day14/queryPage?pageNum=2 HTTP/1.1" 200 2162
+0:0:0:0:0:0:0:1 - - [17/Aug/2016:00:24:24 +0800] "GET /day14/queryPage?pageNum=1 HTTP/1.1" 200 2661

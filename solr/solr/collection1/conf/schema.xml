@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema name="example" version="1.5">
+   <!-- 别删--> 
+   <field name="_version_" type="long" indexed="true" stored="true"/>
+   <field name="_root_" type="string" indexed="true" stored="false"/>
+   <!-- id做为唯一键的定义字段，需要保留，可以修改类型 See the <uniqueKey> -->   
+   <field name="id" type="int" indexed="true" stored="true" required="true" multiValued="false" />
+   <!--field标签用来定义字段，name是字段名称，
+       type属性是字段类型，必须在schema.xml里用FieldType标签来指定
+	   indexed 是否索引
+	   stored  是否存储
+	   required 是否必须
+	   multiValued 是否有多个值
+   --> 
+   <field name="title" type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="name" type="string" indexed="true" stored="true" multiValued="false"/>
+   <field name="content" type="string" indexed="true" stored="true" multiValued="true"/>  
+   <!-- text字段是solrconfig.xml里定义的默认搜索字段，如果删除需要修改solrconfig.xml  -->
+   <field name="text" type="text_ik" indexed="true" stored="true" multiValued="true"/> 
+   
+   <field name="goodsName" type="text_ik" indexed="true" stored="true" multiValued="true"/>
+   <field name="goodsEnName" type="text_ik" indexed="true" stored="true" multiValued="true"/>
+   <field name="categoryId" type="int" indexed="true" stored="true" multiValued="true"/>
+   <field name="categoryIdParent" type="int" indexed="true" stored="true" multiValued="true"/>
+   <field name="categoryIdGrandpa" type="int" indexed="true" stored="true" multiValued="true"/>
+   <field name="sales" type="int" indexed="true" stored="true" multiValued="false"/>
+   <field name="propString" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="price" type="double" indexed="true" stored="true" multiValued="false"/>
+   <field name="salePrice" type="double" indexed="true" stored="true" multiValued="false"/>
+   <field name="listedTime" type="date" indexed="true" stored="true" multiValued="false"/>
+   <field name="comments" type="int" indexed="true" stored="true" multiValued="false"/>
+   <field name="praise" type="double" indexed="true" stored="true" multiValued="false"/>
+   <field name="goodsImageUrl" type="string" indexed="true" stored="true" multiValued="true"/>
+   <field name="goodsSkuCode" type="text_ik" indexed="true" stored="true" multiValued="true"/>
+   <field name="goodsSkuString" type="text_ik" indexed="true" stored="true" multiValued="true"/>
+   <field name="categoryName" type="text_ik" indexed="true" stored="true" multiValued="true"/>
+   <field name="goodsCategoryCode" type="text_ik" indexed="true" stored="true" multiValued="true"/>
+   <field name="goodsCategoryString" type="text_ik" indexed="true" stored="true" multiValued="true"/>
+   <field name="goodsPropCode" type="text_ik" indexed="true" stored="true" multiValued="true"/>
+   <field name="goodsPropString" type="text_ik" indexed="true" stored="true" multiValued="true"/>
+   <field name="goStatus" type="int" indexed="true" stored="true" multiValued="true"/>
+   
+   <!-- 动态标签，在solr服务器运行时，动态创建新的字段，
+		创建的字段名称符合动态标签定义的规则和类型即可  -->   
+   <dynamicField name="*_i"  type="long"    indexed="true"  stored="true"/> 
+   <dynamicField name="*_s"  type="string"  indexed="true"  stored="true" /> 
+ <!--唯一键的定义,指定的字段必须在上面有定义 <field name = 'id'/>
+	 uniqueKey标签定义的字段是唯一的，不能重复，如果id重复会执行更新操作
+ -->
+ <uniqueKey>id</uniqueKey>
+  <!--copyField标签 将source指定的字段的值赋值给dest指定的字段
+	  指定dest字段为默认搜索字段，搜索时无须指定字段名称可以搜索到目标数据
+  --> 
+   <copyField source="content" dest="text"/>
+   <copyField source="title" dest="text"/>
+   <copyField source="*_i" dest="text"/>
+   <copyField source="*_s" dest="text"/>
+    <fieldType name="string" class="solr.StrField" sortMissingLast="true" />
+    <fieldType name="long" class="solr.TrieLongField" precisionStep="0" positionIncrementGap="0"/>
+	<fieldType name="int" class="solr.TrieIntField" precisionStep="0" positionIncrementGap="0"/>
+	<fieldType name="date" class="solr.TrieDateField" precisionStep="0" positionIncrementGap="0"/>
+	<fieldType name="double" class="solr.TrieDoubleField" precisionStep="0" positionIncrementGap="0"/>
+	<fieldType name="text_ik" class="solr.TextField">   
+     <analyzer class="org.wltea.analyzer.lucene.IKAnalyzer"/>   
+</fieldType>
+</schema>

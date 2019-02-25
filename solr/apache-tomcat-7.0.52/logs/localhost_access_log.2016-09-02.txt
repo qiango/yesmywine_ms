@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:20:27:43 +0800] "GET /struts2_day01/ HTTP/1.1" 200 630
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:20:28:01 +0800] "GET /struts2_day01/a_hello/hello.jsp HTTP/1.1" 200 602
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:20:28:03 +0800] "GET /struts2_day01/hello.action HTTP/1.1" 200 583
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:20:40:32 +0800] "GET /struts2_day01/heo.action HTTP/1.1" 200 606
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:20:40:32 +0800] "GET /struts2_day01/images/404-xsy.jpg HTTP/1.1" 404 1015
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:20:41:43 +0800] "GET /struts2_day01/hewwo.action HTTP/1.1" 200 606
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:20:41:43 +0800] "GET /struts2_day01/images/404-xsy.jpg HTTP/1.1" 200 50633
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:20:55:13 +0800] "GET /struts2_day01/user_login.action HTTP/1.1" 200 583
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:20:55:26 +0800] "GET /struts2_day01/user_regist.action HTTP/1.1" 200 583
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:20:55:36 +0800] "GET /struts2_day01/user!login.action HTTP/1.1" 200 606
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:20:55:36 +0800] "GET /struts2_day01/images/404-xsy.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Sep/2016:21:04:05 +0800] "GET /struts2_day01/user_login.action?name=Rose HTTP/1.1" 200 583

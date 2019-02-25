@@ -1,0 +1,37 @@
+group 'com.hzbuvi'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.16.14'
+    compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.6.0'
+
+    compile group: 'org.apache.shiro', name: 'shiro-core', version: '1.3.2'
+    compile group: 'org.apache.shiro', name: 'shiro-web', version: '1.2.3'
+    compile group: 'org.apache.shiro', name: 'shiro-ehcache', version: '1.2.3'
+    compile group: 'org.apache.shiro', name: 'shiro-spring', version: '1.3.2'
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.0.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '1.4.0.RELEASE'
+    compile project(':baseOp')
+    compile project(':util')
+    compile project(':baseRecord')
+//    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '1.5.2.RELEASE'
+
+// https://mvnrepository.com/artifact/org.springframework/spring-aop
+    compile group: 'org.springframework', name: 'spring-aop', version: '4.3.8.RELEASE'
+
+    // https://mvnrepository.com/artifact/ru.zinin/tomcat-redis-session
+    compile group: 'ru.zinin', name: 'tomcat-redis-session', version: '0.8'
+
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+}

@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [21/Sep/2016:17:47:54 +0800] "GET /spring3_day0302/addbook.jsp HTTP/1.1" 404 1005
+0:0:0:0:0:0:0:1 - - [21/Sep/2016:17:48:10 +0800] "GET /spring3_day0302/addBook.jsp HTTP/1.1" 200 540
+0:0:0:0:0:0:0:1 - - [21/Sep/2016:17:48:24 +0800] "POST /spring3_day0302/book_add.action;jsessionid=E062D7FA7DA9F22A70323DAB6E884D09 HTTP/1.1" 500 5351
+0:0:0:0:0:0:0:1 - - [21/Sep/2016:17:49:40 +0800] "GET /spring3_day0302/addBook.jsp HTTP/1.1" 200 496
+0:0:0:0:0:0:0:1 - - [21/Sep/2016:17:49:41 +0800] "GET /spring3_day0302/addBook.jsp HTTP/1.1" 200 496
+0:0:0:0:0:0:0:1 - - [21/Sep/2016:17:49:44 +0800] "POST /spring3_day0302/book_add.action HTTP/1.1" 200 191
+0:0:0:0:0:0:0:1 - - [21/Sep/2016:17:55:55 +0800] "GET /spring3_day0302/addBook.jsp HTTP/1.1" 200 496
+0:0:0:0:0:0:0:1 - - [21/Sep/2016:17:55:57 +0800] "GET /spring3_day0302/addBook.jsp HTTP/1.1" 200 496
+0:0:0:0:0:0:0:1 - - [21/Sep/2016:17:56:13 +0800] "POST /spring3_day0302/book_add.action HTTP/1.1" 200 191

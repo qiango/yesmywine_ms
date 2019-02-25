@@ -1,0 +1,22 @@
+group 'com.hzbuvi'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.0.RELEASE'
+
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '1.4.0.RELEASE'
+    // https://mvnrepository.com/artifact/org.apache.commons/commons-lang3
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.5'
+    compile group: 'com.google.code.gson', name: 'gson', version: '2.7'
+
+    compile 'org.springframework.data:spring-data-redis:1.7.6.RELEASE'
+    compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
+}

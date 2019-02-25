@@ -1,0 +1,2 @@
+Sep 08, 2017 9:48:47 AM org.apache.catalina.core.ApplicationContext log
+INFO: SolrRestApi: [Restlet] Attaching application: org.apache.solr.rest.SolrSchemaRestApi@2cbe2dc3 to URI: /solr/schema

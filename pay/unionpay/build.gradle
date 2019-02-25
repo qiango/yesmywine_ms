@@ -1,0 +1,43 @@
+group 'com.hzbuvi.pay'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.0.RELEASE")
+    }
+}
+//指定某个main方法启动springboot
+//jar {
+//    manifest {
+//        attributes 'Main-Class': 'com.hzbuvi.unionpay.ApiUnionpay'
+//    }
+//}
+
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.0'
+    compile group: 'commons-codec', name: 'commons-codec', version: '1.9'
+    compile group: 'org.jdom', name: 'jdom', version: '1.1'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.0.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '1.4.0.RELEASE'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.38'
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.1.15'
+    compile group: 'org.bouncycastle', name: 'bcprov-jdk16', version: '1.45'
+    compile project(':util')
+    compile project(':baseOp')
+    compile project(':baseRecord')
+    compile project(':pay:commons')
+}

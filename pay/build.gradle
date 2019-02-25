@@ -1,0 +1,37 @@
+group 'com.hzbuvi'
+version '1.0-SNAPSHOT'
+
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.4.0.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.0.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '1.4.0.RELEASE'
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.38'
+
+    compile project(':util')
+    compile project(':jwtAuth')
+    compile project(':baseOp')
+    compile project(':baseRecord')
+    compile project(':httpClient')
+    compile project(':pay:commons')
+    compile project(':pay:alipay')
+    compile project(':pay:unionpay')
+    compile project(':pay:wechat')
+
+}
